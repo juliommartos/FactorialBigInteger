@@ -15,7 +15,10 @@ public class Application extends Factorial {
 
     public void run() {
         Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Number to find its factorial: ");
         numberToExceed  = scanner.nextBigInteger();
+
         scanner.close();
         check();
     }
